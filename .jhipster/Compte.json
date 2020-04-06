@@ -1,0 +1,44 @@
+{
+    "name": "Compte",
+    "fields": [
+        {
+            "fieldName": "libelle",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "banque",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateAdded",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "dateModified",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "iban",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "devise",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20200402213800",
+    "entityTableName": "compte",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "embedded": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}
